@@ -7,7 +7,7 @@ A modern real-time chat application built with **Laravel** and **Vue.js**, suppo
 ## 🛠 Tech Stack
 
 ### Backend
-- **Laravel 11** – PHP framework for routing, auth, models, API
+- **Laravel 12** – PHP framework for routing, auth, models, API
 - **Laravel WebSockets / Pusher** – Real-time messaging
 - **MySQL / PostgreSQL** – Relational database for chat data
 - **Laravel Sanctum** – Token-based authentication for SPA
