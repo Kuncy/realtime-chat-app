@@ -19,7 +19,6 @@ return new class extends Migration
             $table->foreignId('recipient_id')->nullable()->constrained('users')->nullOnDelete();
             $table->foreignId('group_id')->nullable()->constrained('groups')->nullOnDelete();
 
-            $table->foreignId('parent_message_id')->nullable()->constrained('pinned_messages')->nullOnDelete();
             $table->foreignId('file_id')->nullable()->constrained('files')->nullOnDelete();
 
             $table->string('text')->nullable();
